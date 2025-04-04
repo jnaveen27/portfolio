@@ -2,6 +2,18 @@
     /* background-image: url('../Assets/code.jpg'); */
     background-size: cover;
     position: relative;
+   
+}
+
+.portfolio-header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -45,7 +57,7 @@
     margin-right: 50px;
 }
 
-.nav:hover {
+.nav-link:hover {
     color: #00ABF0;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -131,6 +143,7 @@
     cursor: pointer;
     padding: 10px;
     margin: 0;
+    text-decoration: none;
 }
 
 .hire-me:hover {
