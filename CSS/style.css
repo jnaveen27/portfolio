@@ -2,16 +2,16 @@
     /* background-image: url('../Assets/code.jpg'); */
     background-size: cover;
     position: relative;
-   
+
 }
 
-.portfolio-header{
+.portfolio-header {
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: #fff;
 }
@@ -155,6 +155,7 @@
 
 
 .lets-talk {
+    text-decoration: none;
     flex: 1;
     margin: 0;
     display: flex;
@@ -223,7 +224,7 @@
 }
 
 .profile-dimondbox {
-    
+
     border-radius: 30px;
     border-width: 5px;
     border-style: solid;
@@ -563,7 +564,8 @@
 
 
 
-.progskills-container, .tools-container {
+.progskills-container,
+.tools-container {
     padding: 30px;
     border: #00ABF0 2px solid;
     border-radius: 10px;
@@ -993,7 +995,7 @@
 
 
 .projectbox-one {
-  
+
     padding: 20px;
     border: #00ABF0 1px solid;
     border-radius: 10px;
@@ -1026,7 +1028,7 @@
 
 
 .projectbox-two {
-    
+
     padding: 20px;
     border: #00ABF0 1px solid;
     border-radius: 10px;
@@ -1058,7 +1060,7 @@
 
 
 .projectbox-three {
-    
+
     padding: 20px;
     border: #00ABF0 1px solid;
     border-radius: 10px;
@@ -1103,7 +1105,9 @@
 
 }
 
-.contact-linkedin, .contact-behance, .contact-instagram {
+.contact-linkedin,
+.contact-behance,
+.contact-instagram {
     color: #fff;
     padding: 10px;
 }
@@ -1117,25 +1121,38 @@
     padding: 30px;
 
 }
-.phone-no, .address, .mailid{
+
+.phone-no, .address, .mailid {
     padding: 10px;
 
 }
-.wap-no{
+
+.wap-no {
     color: #fff;
     padding: 10px;
 }
 
 
-.backto-top{
-  text-align: center;
-  background-color: #041523;
-  color: #fff;
-  font-size: x-large;
-  font-weight: bold;
-  cursor: pointer;
+.backto-top {
+    text-decoration: none;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #041523;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
 
 }
-.backto-top:hover{
-    background-color:#081B29;
+
+.backto-top:hover {
+
+    background-color: #081B29;
+}
+.mail{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
 }
