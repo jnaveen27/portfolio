@@ -95,7 +95,7 @@
 @media (min-width:1000px) {
     
     .aboutme-container{
-        height: 80vh;
+        padding: 5% 0% 10% 10%;
     }
 
     
@@ -105,19 +105,13 @@
 
 @media (max-width:1000px) {
     .eucation-container{
-        height: 150vh;
-        padding: 0px 200px 0px 20px;
+       
        
     }
    
     
 }
-@media (min-width:1000px) {
-    .eucation-container{
-        height: 100vh;
-    }
-    
-}
+
 
 
 
@@ -254,6 +248,12 @@
         justify-content: center;
     
     }
+    .projectbox-four {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+    
+    }
 }
 @media (max-width:550px) {
     .projectbox-one {
@@ -268,10 +268,16 @@
         justify-content: center;
     
     }
-    .projectbox-two {
+    .projectbox-three {
         display: grid;
         align-items: center;
         justify-content: center;
+    
+    }
+    .projectbox-four {
+        display: grid;
+        /* align-items: center;
+        justify-content: center; */
     
     }
 }

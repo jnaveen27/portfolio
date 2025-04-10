@@ -253,6 +253,7 @@
 
 
 .aboutme-container {
+    
     display: grid;
     justify-content: center;
     align-items: center;
@@ -1000,6 +1001,7 @@
     border: #00ABF0 1px solid;
     border-radius: 10px;
     cursor: pointer;
+    flex: 1;
 
 
 }
@@ -1030,11 +1032,12 @@
 
 
 .projectbox-two {
-
+    text-decoration: none;
     padding: 20px;
     border: #00ABF0 1px solid;
     border-radius: 10px;
     cursor: pointer;
+    flex: 1;
 
 
 }
@@ -1068,6 +1071,7 @@
     border: #00ABF0 1px solid;
     border-radius: 10px;
     cursor: pointer;
+    flex: 1;
 
 
 }
@@ -1090,6 +1094,39 @@
 }
 
 .about-three {
+    margin: 0;
+
+}
+
+.projectbox-four {
+
+    padding: 20px;
+    border: #00ABF0 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+
+
+}
+
+.projectimg-four {
+    width: 200px;
+    height: 200px;
+}
+
+.projectname-four {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.name-four {
+    color: #00ABF0;
+    margin: 0;
+}
+
+.about-four {
     margin: 0;
 
 }
