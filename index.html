@@ -35,20 +35,24 @@
                 <a class="nav-link" href="#contact">Contact</a>
 
             </div>
-            <!-- <div class="folio-navbox">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#about">About Me</a>
-                <a class="nav-link" href="#education">Education</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#contact">Contact</a>
-
-            </div> -->
-            <div class="menu-btn"><ion-icon name="menu-outline"></ion-icon></div>
+            
+           
+            <div id="hamburger-menu-btn" onclick="showMenu()" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></div>
 
         </section>
 
     </header>
+    <div id="folio-navbox-parent" class="folio-navbox-parent">
+        <div class="folio-navbox">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+
+        </div>
+    </div>
     <main>
         <section id="#" class="home-container">
             <div class="homeprofile-name">
@@ -114,8 +118,7 @@
                         skills, I thrive in fast-paced environments, consistently delivering impactful results.</p>
                 </div>
         </section>
-        <section id="education">
-            <div class="eucation-container">
+        <section id="education" class="education-section">
                 <div class="my-journey">MY JOURNEYS</div>
                 <div class="Education">Education</div>
                 <div class="educationbox-design">
@@ -165,7 +168,6 @@
                     </div>
                 </div>
 
-            </div>
         </section>
         <section id="skills">
             <div class="skill-page">
@@ -361,6 +363,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

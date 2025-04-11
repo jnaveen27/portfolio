@@ -1,3 +1,5 @@
+
+/* Header start */
 .portfolio-header {
     /* background-image: url('../Assets/code.jpg'); */
     background-size: cover;
@@ -81,7 +83,7 @@
     font-size: 55px;
 }
 
-
+/* Header end */
 
 
 
@@ -329,24 +331,9 @@
 
 
 
-
-
-.eucation-container {
-    display: grid;
-    /* align-items: center;
-    justify-content: center; */
+.education-section{
+    padding: 50px;
     background: #081B29;
-}
-
-.my-journey {
-    display: grid;
-    text-align: center;
-    align-items: center;
-    color: white;
-    /* padding: 15px; */
-    font-size: 35px;
-    font-weight: bolder;
-
 }
 
 .Education {
@@ -357,8 +344,21 @@
     padding: 15px;
 }
 
+
+.my-journey {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+
 .education-box {
-    padding: 0px 200px 0px 40px;
+    /* padding: 0px 200px 0px 40px; */
     position: relative;
 
 }
@@ -945,16 +945,22 @@
 
 /* folio-navbox */
 
-/* .folio-navbox{
+.folio-navbox-parent{
+    display: none;
+    background-color: #081B29;
+    border: #00ABF0 1px solid;
+}
+
+.folio-navbox{
     display: grid;
     color: #fff;
-    border: #00ABF0 1px solid;
+    
     padding: 46px;
     border-radius: 10px;
     gap: 10px;
     margin-right: 5%;
     font-size: 20px;
-} */
+}
 
 
 .projects-page {
