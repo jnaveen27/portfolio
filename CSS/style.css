@@ -83,6 +83,25 @@
     font-size: 55px;
 }
 
+/* folio-navbox */
+
+.folio-navbox-parent{
+    display: none;
+    background-color: #081B29;
+    border: #00ABF0 1px solid;
+}
+
+.folio-navbox{
+    display: grid;
+    color: #fff;
+    
+    padding: 46px;
+    border-radius: 10px;
+    gap: 10px;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
 /* Header end */
 
 
@@ -938,29 +957,41 @@
 }
 
 
-
-
-
-
-
-/* folio-navbox */
-
-.folio-navbox-parent{
-    display: none;
-    background-color: #081B29;
-    border: #00ABF0 1px solid;
+.seo-container {
+    padding: 5px;
 }
 
-.folio-navbox{
-    display: grid;
+.seo {
     color: #fff;
-    
-    padding: 46px;
-    border-radius: 10px;
-    gap: 10px;
-    margin-right: 5%;
-    font-size: 20px;
+    font-weight: bolder;
 }
+
+.seo-per-box {
+    display: flex;
+    border: #00ABF0 solid 1px;
+    border-radius: 30px;
+    /* gap: 15px; */
+
+
+
+}
+
+.seo-fill {
+    background-color: #00ABF0;
+    border: #00ABF0 solid 1px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
 
 
 .projects-page {
