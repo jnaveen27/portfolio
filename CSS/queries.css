@@ -122,7 +122,7 @@
 @media (min-width:1000px) {
     
     .aboutme-container{
-        padding: 5% 0% 10% 10%;
+        padding: 0% 5% 0% 7%;
     }
 
     
@@ -184,10 +184,20 @@
               
        
     }
+    .projectsline-two{
+        display: grid;
+              
+       
+    }
     
 }
 @media (min-width:1200px) {
     .projectsline-one{
+        display: flex;
+        
+        
+    }
+    .projectsline-two{
         display: flex;
         
         
