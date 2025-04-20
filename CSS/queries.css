@@ -98,19 +98,9 @@
 }
 
 
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575px) {
-    /* Styles for extra small devices */
-}
-
-/* Small devices (phones to small tablets, less than 768px) */
-@media (max-width: 767px) {
-    /* Styles for small devices */
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991px) {
-    /* Styles for medium devices */
+/* Extra large devices (larger desktops, less than 1400px) */
+@media (max-width: 1399px) {
+    /* Styles for extra large devices */
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -118,88 +108,84 @@
     /* Styles for large devices */
 }
 
-/* Extra large devices (larger desktops, less than 1400px) */
-@media (max-width: 1399px) {
-    /* Styles for extra large devices */
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    /* Styles for medium devices */
+}
+
+/* Small devices (phones to small tablets, less than 768px) */
+@media (max-width: 767px) {
+    /* Styles for small devices */
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+    /* Styles for extra small devices */
 }
 
 
 
 
-@media (min-width:1000px) {
-
-    .aboutme-container {
-        padding: 0% 5% 0% 7%;
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
+    .vertical-line {
+        display: none;
     }
 
-
-}
-
-
-
-@media (max-width:1000px) {
-    .eucation-container {}
-
-
-}
-
-
-
-
-
-@media (max-width:1200px) {
-    .skill-container {
+    .education-box {
         display: grid;
+        align-items: center;
+        justify-content: center;
+    }
 
-
+    .common-box {
+        margin: 0;
     }
 
 }
 
-@media (min-width:1200px) {
+
+
+/* education container */
+@media (max-width: 1399px) {
+    .education-section {
+        padding: 4%;
+    }
+
+
+}
+
+
+
+/* skill page */
+@media (max-width: 1399px) {
     .skill-container {
         display: flex;
         gap: 30px;
 
     }
 
-}
-
-@media (max-width:1200px) {
     .skill-page {
-        height: 170vh;
-
-
+        padding: 5% 0% 9% 0%;
     }
-
 }
 
-@media (min-width:1200px) {
-    .skill-page {
-
-        height: 80vh;
-    }
-
-}
-
-
-
-@media (max-width:1200px) {
-    .projectsline-one {
+@media (max-width: 1199px) {
+    .skill-container {
         display: grid;
-
-
     }
 
-    .projectsline-two {
-        display: grid;
 
-
-    }
 
 }
 
-@media (min-width:1200px) {
+/* project page */
+
+
+
+@media (max-width: 1399px) {
+
     .projectsline-one {
         display: flex;
 
@@ -211,75 +197,6 @@
 
 
     }
-
-}
-
-
-
-@media (max-width:1200px) {
-    .projects-page {
-        height: 130vh;
-
-
-    }
-
-}
-
-@media (max-width:700px) {
-    .projects-page {
-        height: 150vh;
-
-
-    }
-
-}
-
-@media (max-width:580px) {
-    .projects-page {
-        height: 200vh;
-
-
-    }
-
-}
-
-@media (max-width:510px) {
-    .projects-page {
-        height: 230vh;
-
-
-    }
-
-}
-
-@media (max-width:500px) {
-    .projects-page {
-        height: 211vh;
-
-
-    }
-
-}
-
-@media (max-width:470px) {
-    .projects-page {
-        height: 232vh;
-
-
-    }
-
-}
-
-@media (min-width:1200px) {
-    .projects-page {
-
-        height: 110vh;
-    }
-
-}
-
-@media (min-width:600px) {
-    /* project box allignment */
 
     .projectbox-one {
         display: flex;
@@ -308,9 +225,52 @@
         justify-content: center; */
 
     }
+
+    .projects-page {
+        padding: 5% 0% 7% 0%;
+
+    }
+
 }
 
-@media (max-width:550px) {
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .projectsline-one {
+        display: grid;
+
+
+    }
+
+    .projectsline-two {
+        display: grid;
+
+
+    }
+
+    .projects-page {
+        padding: 5% 0% 70% 0%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .projects-page {
+        padding: 5% 0% 90% 0%;
+    }
+
+}
+
+/* Small devices (phones to small tablets, less than 768px) */
+@media (max-width: 767px) {
+    .projects-page {
+        padding: 5% 0% 110% 0%;
+    }
+
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575px) {
     .projectbox-one {
         display: grid;
         align-items: center;
@@ -338,7 +298,12 @@
         justify-content: center; */
 
     }
+
+    .projects-page {
+        padding: 5% 0% 210% 0%;
+    }
 }
+
 
 
 

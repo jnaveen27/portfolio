@@ -274,12 +274,12 @@
 
 
 .aboutme-container {
-    
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr;
     background-color: #122E43;
+    padding: 4% 0% 7% 0%;
 
 }
 
@@ -352,7 +352,7 @@
 
 
 .education-section{
-    padding: 50px;
+   
     background: #081B29;
 }
 
