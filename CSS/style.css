@@ -1,4 +1,3 @@
-
 /* Header start */
 .portfolio-header {
     /* background-image: url('../Assets/code.jpg'); */
@@ -85,16 +84,16 @@
 
 /* folio-navbox */
 
-.folio-navbox-parent{
+.folio-navbox-parent {
     display: none;
     background-color: #081B29;
     border: #00ABF0 1px solid;
 }
 
-.folio-navbox{
+.folio-navbox {
     display: grid;
     color: #fff;
-    
+
     padding: 46px;
     border-radius: 10px;
     gap: 10px;
@@ -245,7 +244,8 @@
 }
 
 .profile-dimondbox {
-
+    width: 250px;
+    height: 250px;
     border-radius: 30px;
     border-width: 5px;
     border-style: solid;
@@ -258,6 +258,8 @@
 }
 
 .profile-image {
+    margin-left: 2%;
+    margin-top: -12%;
     display: block;
     margin-right: auto;
     transform: rotate(-45deg);
@@ -346,13 +348,13 @@
     margin: 0%;
     color: white;
     padding: 60px;
-    
+
 }
 
 
 
-.education-section{
-   
+.education-section {
+
     background: #081B29;
 }
 
@@ -378,7 +380,7 @@
 
 
 .education-box {
-    /* padding: 0px 200px 0px 40px; */
+    padding: 0px 200px 0px 40px;
     position: relative;
 
 }
@@ -998,7 +1000,7 @@
 .projects-page {
 
     background-color: #081B29;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 .projects {
@@ -1057,7 +1059,7 @@
 }
 
 .name-one {
-    
+
     color: #00ABF0;
     margin: 0;
 }
@@ -1201,7 +1203,9 @@
 
 }
 
-.phone-no, .address, .mailid {
+.phone-no,
+.address,
+.mailid {
     padding: 10px;
 
 }
@@ -1218,7 +1222,7 @@
 
 .backto-top {
     text-decoration: none;
-    display:grid;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: #041523;
@@ -1233,9 +1237,10 @@
 
     background-color: #081B29;
 }
-.mail{
+
+.mail {
     text-decoration: none;
     color: #fff;
     padding: 10px;
-    
+
 }
