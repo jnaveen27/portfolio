@@ -74,33 +74,17 @@
 
 
 
-@media (max-width:1000px) {
-    .folio-navlinks {
-        display: none;
-        /* tools bar */
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-
-}
-
-@media (min-width:1000px) {
-    .folio-navlinks {
-        display: flex;
-    }
-
-    .menu-btn {
-        display: none;
-    }
-
-}
-
 
 /* Extra large devices (larger desktops, less than 1400px) */
-@media (max-width: 1399px) {
-    /* Styles for extra large devices */
+@media (min-width: 1399px) {
+    .folio-navlinks {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -110,7 +94,13 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
-    /* Styles for medium devices */
+    .folio-navlinks {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
 }
 
 /* Small devices (phones to small tablets, less than 768px) */
