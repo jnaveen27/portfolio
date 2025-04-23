@@ -589,7 +589,7 @@
 
 .progskills-container,
 .tools-container {
-    padding: 30px;
+    padding: 5%;
     border: #00ABF0 2px solid;
     border-radius: 10px;
 
@@ -627,7 +627,7 @@
     background-color: #00ABF0;
 
     border: #00ABF0 solid 1px;
-    width: 175px;
+    width: 61%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -662,7 +662,7 @@
     background-color: #00ABF0;
 
     border: #00ABF0 solid 1px;
-    width: 213px;
+    width: 85%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -697,7 +697,7 @@
 .css-fill {
     background-color: #00ABF0;
     border: #00ABF0 solid 1px;
-    width: 213px;
+    width: 85%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -739,7 +739,7 @@
     background-color: #00ABF0;
 
     border: #00ABF0 solid 1px;
-    width: 222px;
+    width: 90%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -774,7 +774,7 @@
     background-color: #00ABF0;
     padding: 4px;
     border: #00ABF0 solid 1px;
-    width: 165px;
+    width: 70%;
     border-radius: 20px;
     margin: 4px;
 }
@@ -808,7 +808,7 @@
 .illustrator-fill {
     background-color: #00ABF0;
     border: #00ABF0 solid 1px;
-    width: 175px;
+    width: 70%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -843,7 +843,7 @@
 .wireframe-fill {
     background-color: #00ABF0;
     border: #00ABF0 solid 1px;
-    width: 200px;
+    width: 85%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -891,7 +891,7 @@
     background-color: #00ABF0;
 
     border: #00ABF0 solid 1px;
-    width: 215px;
+    width: 90%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -922,7 +922,7 @@
     background-color: #00ABF0;
     padding: 4px;
     border: #00ABF0 solid 1px;
-    width: 190px;
+    width: 80%;
     border-radius: 20px;
     margin: 4px;
 }
@@ -953,7 +953,7 @@
 .graphic-fill {
     background-color: #00ABF0;
     border: #00ABF0 solid 1px;
-    width: 172px;
+    width: 70%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
@@ -982,7 +982,7 @@
 .seo-fill {
     background-color: #00ABF0;
     border: #00ABF0 solid 1px;
-    width: 200px;
+    width: 85%;
     border-radius: 20px;
     margin: 4px;
     padding: 4px;
