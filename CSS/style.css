@@ -170,6 +170,7 @@
     background-color: #081B29;
     border: 2px solid #00ABF0;
     color: #00ABF0;
+    transition: all 0.5s ease-in;
 }
 
 
@@ -191,7 +192,7 @@
 
 .lets-talk:hover {
     background-color: #00ABF0;
-
+    transition: all 0.5s ease-in;
     color: #081B29;
 }
 
@@ -243,13 +244,20 @@
 
 }
 
-.profile-dimondbox {
+.profile-dimondbox:hover{
+    transition: all 2s ease;
+    transform: rotateZ(360deg) rotate(45deg) scale(1.2);
+    box-shadow: rgba(0, 171, 240, 0.35) 0px 5px 15px;
+    border-color: #041523;
+}
+
+.profile-dimondbox{
     width: 250px;
     height: 250px;
     border-radius: 30px;
     border-width: 5px;
     border-style: solid;
-    border-color: #00ABF0;
+    border-color: #00abf0;
     object-fit: cover;
     transform: rotate(45deg);
     overflow: hidden;
@@ -329,6 +337,7 @@
     transform: rotate(45deg);
     overflow: hidden;
     background-color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 5px 15px;
 }
 
 .aboutme-img {
