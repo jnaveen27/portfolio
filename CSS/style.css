@@ -1000,7 +1000,7 @@
 .projects-page {
 
     background-color: #081B29;
-    /* height: 90vh; */
+
 }
 
 .projects {
@@ -1176,7 +1176,6 @@
 .cantact-page {
     display: flex;
     justify-content: center;
-    height: 40vh;
     background-color: #000;
 }
 
