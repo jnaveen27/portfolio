@@ -143,6 +143,9 @@
     .education-section {
         padding: 4% 0% 7% 0%;
     }
+    .education-box{
+        padding: 0px 200px 0px 40px;
+    }
 
 
 }
@@ -153,12 +156,19 @@
     .education-section {
         padding: 4% 0% 7% 0%;
     }
+    .education-box{
+        padding: 0px 200px 0px 40px;
+    }
+
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
     .education-section {
         padding: 4% 0% 7% 0%;
+    }
+    .education-box{
+        padding: 0px 200px 0px 40px;
     }
 }
 
@@ -167,6 +177,9 @@
     .education-section {
         padding: 4% 0% 7% 0%;
     }
+    .education-box{
+        padding: 0px 200px 0px 40px;
+    }
 }
 
 
@@ -174,6 +187,9 @@
 @media (max-width: 575px) {
     .education-section {
         padding: 4% 0% 7% 0%;
+    }
+    .education-box{
+        padding:0;
     }
 }
 
