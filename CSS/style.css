@@ -92,12 +92,11 @@
 
 .folio-navbox {
     display: grid;
+    align-items: center;
     color: #fff;
-
-    padding: 46px;
+    padding: 10%;
     border-radius: 10px;
     gap: 10px;
-    margin-right: 5%;
     font-size: 20px;
 }
 
@@ -244,14 +243,14 @@
 
 }
 
-.profile-dimondbox:hover{
+.profile-dimondbox:hover {
     transition: all 2s ease;
     transform: rotateZ(360deg) rotate(45deg) scale(1.2);
     box-shadow: rgba(0, 171, 240, 0.35) 0px 5px 15px;
     border-color: #041523;
 }
 
-.profile-dimondbox{
+.profile-dimondbox {
     width: 250px;
     height: 250px;
     border-radius: 30px;
