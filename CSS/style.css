@@ -594,8 +594,7 @@
 
 
 
-.progskills-container,
-.tools-container {
+.progskills-container{
     padding: 5%;
     border: #00ABF0 2px solid;
     border-radius: 10px;
@@ -717,6 +716,12 @@
 
 
 /* tools */
+.tools-container {
+    padding: 5%;
+    border: #00ABF0 2px solid;
+    border-radius: 10px;
+
+}
 
 .tools-skills {
     font-size: 30px;
